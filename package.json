@@ -4,7 +4,7 @@
   "description": "Doxygen XML to Markdown documentation converter. Supports windows - which the original maintainers must have forgotten existed.",
   "main": "index.js",
   "scripts": {
-    "release": "release-it",
+    "release": "release-it"
   },
   "bin": {
     "moxygen": "./bin/moxygen.js"
