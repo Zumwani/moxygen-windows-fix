@@ -430,7 +430,7 @@ module.exports = {
 
         // set namespace reference
         var nsp = compound.name.split('::');
-        compound.namespace = nsp.splice(0, nsp.length - 1).join('::');
+        compound.namespace = nsp.splice(0, nsp.length - 1).join('-');
         break;
 
       case 'file':
