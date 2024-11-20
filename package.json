@@ -1,7 +1,7 @@
 {
-  "name": "moxygen",
+  "name": "moxygen-with-windows-support",
   "version": "0.8.0",
-  "description": "Doxygen XML to Markdown documentation converter",
+  "description": "Doxygen XML to Markdown documentation converter. Supports windows - which the original maintainers must have forgotten existed.",
   "main": "index.js",
   "scripts": {
     "release": "release-it",
