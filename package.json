@@ -1,6 +1,6 @@
 {
   "name": "moxygen-with-alternate-namespace-and-classname-separator",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Doxygen XML to Markdown documentation converter. Supports windows - which the original maintainers must have forgotten existed.",
   "main": "index.js",
   "scripts": {
