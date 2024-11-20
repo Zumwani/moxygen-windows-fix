@@ -1,25 +1,19 @@
 {
-  "name": "moxygen-with-windows-support",
+  "name": "moxygen-with-alternate-namespace-and-classname-separator",
   "version": "0.8.0",
   "description": "Doxygen XML to Markdown documentation converter. Supports windows - which the original maintainers must have forgotten existed.",
   "main": "index.js",
   "scripts": {
     "release": "release-it",
-    "test": "npm run clean && cd example/ && doxygen && cd .. && node bin/moxygen.js --groups --pages --anchors --output=example/doc/api-%s.md example/xml",
-    "clean": "rm -rf example/doc/*.md example/xml/"
   },
   "bin": {
     "moxygen": "./bin/moxygen.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sourcey/moxygen.git"
+    "url": "https://github.com/Zumwani/moxygen-windows-fix"
   },
   "keywords": [
-    "doxygen",
-    "markdown",
-    "documentation",
-    "generator"
   ],
   "author": "Kam Low",
   "license": "MIT",
